@@ -33,48 +33,82 @@ Reference Data Types:
 1) Array 
 2) Object 
 3) Function 
-
 */
-
 // let myname = "dipo";
 // make another variabelename 
 // let location = '12 dash road lagos way'
-
 // console.log(myname)
-
 /// before you start solving a problem you will start with a variabelename
-
 // pamalcacal
 // let myName = 'mayowa'
-
 // let oddNumber = 3 
-
 // let secertKey = 'q34343242'
-
-
 // console.log(true) // this is boolean 
 // console.log(121321) // this is a number data type 
 // console.log('string') /// this is a string data type
 // console.log(null)  /// this is a null  data type
 // console.log(undefined)  // this is a undefined data type
-
-  
 // sK// this does not  make sense 
-
 // if you use Let it means you might change the value later on  but if you use const you wont be able to change the value later on 
+// let myname = 'mayowa';
+// myname = 21313;
+// console.log(myname)   /// i am  console logging the variabele name
+// /// it better you use const most of the time  to avoid reassing of value      !!!!!!!!!!!!!!
+// const surname = 'olalekan';
+// // surname = 'dipo my guy ' // the broswer and javascript will shout at us  if we do this 
+// console.log(surname)
 
 
-let myname = 'mayowa';
+// document.addEventListener('click', function(){
+//     const container = document.querySelector('.notification');
+//     container.remove()
+// })
 
-myname = 21313;
+/// how to store infomation in javascript  and talk about functions 
 
-console.log(myname)   /// i am  console logging the variabele name
+// home work what is Reference Data Types 
 
 
-/// it better you use const most of the time  to avoid reassing of value      !!!!!!!!!!!!!!
+//storing info in JS ......................
 
-const surname = 'olalekan';
+// Array [] , Object {} , Mutiple Object in Array [{}]
 
-// surname = 'dipo my guy ' // the broswer and javascript will shout at us  if we do this 
+// Create a simple array , note array has some built in methods
 
-console.log(surname)
+// Note this  , methods are the same things as array 
+
+// what is method or function , a method or function is something that perform a given task 
+
+// note ... you can use in buiit methods or you can create you own functions 
+
+// an  array in JavaScript is a special type of object used to store multiple values in a single variable. 
+
+//  create an array of different names and console.log it 
+const names = [ 'mayowa', 'dipo', 'blessing', 'shola' , 'bus', 'bola', 'tunde' ]  //  you can store a single info or mutiple info  
+// types of data you can store inside an array 
+// string, object , number, boolean 
+
+// console.log(names)
+
+// let print on array value out on the browser 
+
+
+// console.log(names[0])
+// console.log(names[2])
+
+//method or function in array 
+
+console.log(names.includes(2232))
+
+console.log(names.includes('mayowa'))
+
+
+// home work find out the most used array method in javascipt 
+
+names.pop()  // takes away the last value in a array 
+
+
+names.shift()   // take away the first value in a array
+
+
+console.log(names)

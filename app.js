@@ -84,7 +84,7 @@ Reference Data Types:
 // an  array in JavaScript is a special type of object used to store multiple values in a single variable. 
 
 //  create an array of different names and console.log it 
-const names = [ 'mayowa', 'dipo', 'blessing', 'shola' , 'bus', 'bola', 'tunde' ]  //  you can store a single info or mutiple info  
+const names = ['mayowa', 'dipo', 'blessing', 'shola', 'bus', 'bola', 'tunde']  //  you can store a single info or mutiple info  
 // types of data you can store inside an array 
 // string, object , number, boolean 
 
@@ -92,23 +92,76 @@ const names = [ 'mayowa', 'dipo', 'blessing', 'shola' , 'bus', 'bola', 'tunde' ]
 
 // let print on array value out on the browser 
 
-
 // console.log(names[0])
 // console.log(names[2])
-
 //method or function in array 
-
-console.log(names.includes(2232))
-
-console.log(names.includes('mayowa'))
-
-
+// console.log(names.includes(2232))
+// console.log(names.includes('mayowa'))
 // home work find out the most used array method in javascipt 
+// names.pop()  // takes away the last value in a array 
+// names.shift()   // take away the first value in a array
+// console.log(names)
 
-names.pop()  // takes away the last value in a array 
+/// pop , shift , unshif, concat , findIndex, map , map, filter , fill , slice  and many other more ,
+
+// prop in array is called length
+
+// all this method or function live inside of an array 
+
+const arr1 = ['name 1 ', 'name 2 ', 'name 3 ', 'name 4']
+
+const arr2 = ['london 1', 'london 1', 'london 2', 'london 3']
+
+// const joinArray = arr1.concat(arr2)
+// console.log(joinArray)
+
+// console.log(arr2[3])
+/// object , 
+// object are key values pairs 
+
+const person = {
+    name: 'mayowa',
+    age: 14,
+    level: 3,
+    location: 'london road lagos',
+    name: 'dipo',
+    age: 44
+}
+// object has props 
+// console.log(person)
+// console.log(person.name)
+// console.log(person.level)
+// console.log(person.location)
 
 
-names.shift()   // take away the first value in a array
+// operators, control structures (if statements, loops), functions
+// operators,
+// + , - , % , * , / 
+const num1 = 12
+const num2 = 10;
+
+// console.log(  num1 + num2  )
+// console.log(num1 - num2)
+// console.log(num1 % num2)
+// console.log(num1 * num2)
+// console.log(num1 / num2)
 
 
-console.log(names)
+
+
+// control structures (if statements, switch ,loops),
+// we make decsion in javascript with   (  if statment , switch , loops  ) 
+
+
+// if statwment , we have if , else if , else 
+
+const myName = 'mayowa';
+
+
+if (myName === 'ola') {
+    console.log('this name is ola')
+} else if (myName === 'mayowa') {
+    console.log('this name is mayowa')
+} else {
+    console.log('no name is found ')
+}

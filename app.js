@@ -127,6 +127,7 @@ const person = {
     name: 'dipo',
     age: 44
 }
+
 // object has props 
 // console.log(person)
 // console.log(person.name)
@@ -135,8 +136,16 @@ const person = {
 
 
 // operators, control structures (if statements, loops), functions
-// operators,
-// + , - , % , * , / 
+// operators Below 
+
+// JavaScript Arithmetic Operators
+// JavaScript Assignment Operators , === , ==
+// JavaScript Comparison Operators
+// JavaScript Logical Operators
+// Type Operators
+
+
+//  Arithmetic Operators   ======     + , - , % , * , / 
 const num1 = 12
 const num2 = 10;
 
@@ -149,19 +158,101 @@ const num2 = 10;
 
 
 
-// control structures (if statements, switch ,loops),
-// we make decsion in javascript with   (  if statment , switch , loops  ) 
+// control structures (if statements, switch ,  loops),
+
+// we make decsion in javascript/application with   (  if statment , switch , loops  , Break , Continue) 
 
 
 // if statwment , we have if , else if , else 
+//note , you can add muitple else if to your if statement 
 
-const myName = 'mayowa';
+//a simple task check if the car is free for pickup 
+
+// const myCar = 'benz';
+
+// if(myCar === 'benz'){
+//     console.log('this is a benz and if for no pick up')
+// }
+// else{
+//     console.log('toyota is ready for pick up !!!!!')
+// }
 
 
-if (myName === 'ola') {
-    console.log('this name is ola')
-} else if (myName === 'mayowa') {
-    console.log('this name is mayowa')
-} else {
-    console.log('no name is found ')
+
+// const myName = 'mayowa';;
+// // do a if statement to check if your name is dipo
+
+// if (myName === 'mayowa'){
+//     console.log('hello my name is mayowa')
+// }else{
+//     console.log('hello my name is dipo ')
+// }
+
+const mycolor = 'blue dipo'
+
+if (mycolor === 'red') {
+    console.log('color is red')
+
+} else if (mycolor === 'green') {
+
+    console.log('color is green')
+
+} else if (mycolor === 'yellow') {
+
+    console.log('color is yellow')
+
+} else if (mycolor === 'blue') {
+
+    console.log('color is blue')
+}
+
+else {
+    console.log('sorry no color was chooson!!')
+}
+
+/// note in some case your condition  ends with just if statement no else or else if 
+
+// do a calulator with if statment 
+
+
+// const number1 = 1;
+// const number2 = 1;
+// const sign  = 'ppp'
+// // - , * , / , %  
+
+// if (sign === '+'){
+//     console.log(number1 + number2)
+// }else if(sign === '-'){
+
+//     console.log(number1 + number2 )
+// }
+// else{
+//     console.log('sign is not correct')
+// }
+
+// a bit adavacned calulator with the promte method 
+// there are some in buit method/function in javascript browser 
+// always remember method/function are things tha performs a task!!!
+
+// example of in buit method in javascript 
+//  console.log(), prompt(), confirm(), alert(), 
+
+// 
+const enterName = prompt('what your name ..')
+
+const sign = prompt('enter your sign ........')
+
+const number1 = parseInt( prompt('enter the second number ') ) 
+
+const number2 = parseInt(prompt('enter the second number ')) 
+
+let result;
+
+ 
+
+if (sign === '+') {
+    result = number1 + number2;
+    console.log(result)
+}else {
+    console.log('sorry the sign you enter mr or mrs ' + enterName + 'is worng')
 }
